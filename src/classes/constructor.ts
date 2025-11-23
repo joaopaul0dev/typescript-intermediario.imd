@@ -1,6 +1,7 @@
 export class carro{
-    //outro inicializador cria e define todos os atributos do objeto carro, podendo ou nao ter o numDePortas definido.
+    // inicializador construct cria e define todos os atributos do objeto carro, podendo ou nao ter o numDePortas definido.
     public constructor(
+        readonly fabricante:string,
         private _modelo:string,
         private _cor:string,
         private _placa:string,
@@ -18,6 +19,15 @@ export class carro{
             this._numDePortas = numDePortas;
         }
     }
+//usando um metodo para exibir alteraçoes via console
+    exibirInformacoes(){
+        console.log(
+            `Fabricante: ${this.fabricante}
+            Modelo: ${this._modelo}
+            Cor: ${this._cor}
+            Placa: ${this._placa}
+            Numero de portas: ${this._numDePortas}`
+        )
+    }
  
 }
-

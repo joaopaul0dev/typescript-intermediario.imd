@@ -1,4 +1,4 @@
-import { Moto } from "./inicializador"
+import { carro } from "./constructor";
 
-let c = new Moto ()
-
+let w = new carro("Fiat","uno", "branco","FDS-8903", 1)
+console.log(w.fabricante)

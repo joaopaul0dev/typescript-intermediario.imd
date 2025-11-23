@@ -1,4 +1,4 @@
-export class Moto{
+class Moto{
     private _modelo: string;
     private _cor: string;
     private _numDaPlaca: number; 
