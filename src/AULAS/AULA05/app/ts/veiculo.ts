@@ -31,7 +31,4 @@ export class Veiculo{
    public set direcao(direcao : Direcao) {
        this._direcao = direcao;
    }
-    
-
-
 }
