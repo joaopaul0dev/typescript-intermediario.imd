@@ -12,13 +12,14 @@ export class carro{
         return this._numDePortas;
     }
 
-    set numDePortas(numDePortas: number){
+        set numDePortas(numDePortas: number){
         if (numDePortas < 2){
             this._numDePortas = 2; 
         } else {
             this._numDePortas = numDePortas;
         }
     }
+
 //usando um metodo para exibir alteraçoes via console
     exibirInformacoes(){
         console.log(
@@ -31,3 +32,7 @@ export class carro{
     }
  
 }
+
+let veiculo = new carro("Chevrolet","Onix","Preto","ABC-1234",4);
+
+veiculo.exibirInformacoes();
