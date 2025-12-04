@@ -5,7 +5,8 @@ export class Carro{
          private _modelo:string,
          private _cor: string,
          private _placa?: string,
-         private _numPortas?: number){
+         private _numPortas?: number
+        ){
 
             if(_numPortas == undefined || _numPortas < 2){
                 this._numPortas = 2
@@ -13,7 +14,7 @@ export class Carro{
          }
 
     public get numPortas():number{
-        return this._numPortas;
+        return this.numPortas;
     }
 
     public set numPortas(numPortas: number){
@@ -45,7 +46,7 @@ export class Carro{
     
     
     public get placa() : string {
-        return this._placa;
+        return this.placa;
     }
 
     

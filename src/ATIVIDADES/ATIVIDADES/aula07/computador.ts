@@ -1,7 +1,7 @@
-import { Monitor } from "./monitor";
+import { Monitor } from "../monitor";
 import { Teclado } from "./teclado";
-import { Memoria } from "./memoria";
-import { PlacaMae } from "./placaMae";
+import { Memoria } from "../memoria";
+import { PlacaMae } from "../placaMae";
 
 export class Computador{
     private _monitor: Monitor;
