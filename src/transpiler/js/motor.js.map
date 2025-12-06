@@ -1,0 +1,1 @@
+{"version":3,"file":"motor.js","sourceRoot":"","sources":["motor.ts"],"names":[],"mappings":";;;AAAA,MAAa,KAAK;IACN,SAAS,CAAS;IAE1B,IAAW,QAAQ;QACf,OAAO,IAAI,CAAC,SAAS,CAAA;IACzB,CAAC;IAED,IAAW,QAAQ,CAAC,QAAiB;QACjC,IAAI,CAAC,SAAS,GAAG,QAAQ,CAAC;IAC9B,CAAC;CACJ;AAVD,sBAUC"}

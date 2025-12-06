@@ -1,0 +1,1 @@
+{"version":3,"file":"transporte.js","sourceRoot":"","sources":["transporte.ts"],"names":[],"mappings":";;AAAA,MAAM,UAAU;IACJ,WAAW,CAAS;IAE5B,IAAW,UAAU;QACjB,OAAO,IAAI,CAAC,WAAW,CAAA;IAC3B,CAAC;IAED,IAAI,UAAU,CAAC,UAAmB;QAC9B,IAAI,CAAC,WAAW,GAAG,UAAU,CAAC;IAClC,CAAC;CACJ"}
