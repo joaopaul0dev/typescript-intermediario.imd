@@ -1,9 +1,9 @@
 class Terrestre extends Transporte {
     public exibirInfo() {
-        console.log(t.capacidade);
+        console.log(`Capacidade: ${this.capacidade}`);
     }
 }
 
-let t = new Terrestre();
-t.capacidade = 5;
-t.exibirInfo();
+let o = new Terrestre();
+o.capacidade = 5;
+o.exibirInfo(); 

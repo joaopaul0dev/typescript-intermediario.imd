@@ -7,12 +7,12 @@ export class Veiculo{
     private _direcao: Direcao;
 
     public constructor(potencia: number){
-        this._motor = new Motor(potencia);
+        this._motor = new Motor(potencia, 100);
         this._direcao = new Direcao();
     }
 
     public ligar(potencia: number){
-        this._motor = new Motor(potencia);
+        this._motor = new Motor(potencia, 50);
         this._direcao = new Direcao();
     }
 

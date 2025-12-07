@@ -1,4 +1,4 @@
-class estudante {
+/*class estudante {
 
     constructor(
         private _id: number,
@@ -31,6 +31,9 @@ class estudante {
     }
 }
 
-let e = new estudante(0, "João", -20);
+/*let e = new estudante(0, "João", -20);
 console.log(e.id);
-console.log(e.creditos);
+console.log(e.creditos);*/
+
+let texto: string = "teste 123";
+console.log(texto);
