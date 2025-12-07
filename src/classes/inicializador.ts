@@ -1,4 +1,4 @@
-class Moto{
+export class Moto extends carro {
     private _modelo: string;
     private _cor: string;
     private _numDaPlaca: number; 
