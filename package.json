@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/joaopaul0dev/typescript-intermediario.imd/issues"
   },
-  "homepage": "https://github.com/joaopaul0dev/typescript-intermediario.imd#readme"
+  "homepage": "https://github.com/joaopaul0dev/typescript-intermediario.imd#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.5.33"
+  }
 }
