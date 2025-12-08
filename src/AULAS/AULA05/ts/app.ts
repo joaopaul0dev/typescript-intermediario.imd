@@ -1,4 +1,4 @@
-import { Carro } from './carro';
+import { carro } from '../../AULA03/constructor';
 import { Direcao } from './direcao';
 import { Motor } from './motor';
 import { Veiculo } from './veiculo';
