@@ -7,4 +7,4 @@ interface calculoIdadeAtual{
         
         return new Date().getFullYear() - ano;
     }
-console.log(idadeAtual(2007));
+console.log(idadeAtual(1975));
