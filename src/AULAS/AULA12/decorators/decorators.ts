@@ -1,19 +1,23 @@
-@exemploDecoratorClasse
-class pessoa {
-    constructor() {
-     console.log("Objeto criado");   
+function dataDecorator<T extends { new(...args: any[]): {} }>(constructor: T): T {
+    return class extends constructor {
+        constructor(...args: any[]) {
+            super(...args);
+            console.log("Inicio da execução do decorator");
+            console.log(`Data: ${new Date().getDate()}`);
+            console.log("Fim da execução do decorator");
+        }
     }
 }
 
-function exemploDecoratorClasse(constructor:Function) {
-    console.log("Classe decorada: ", constructor);
+function exemploDecoratorClasse(constructor: Function) {
+    console.log(constructor);
 }
 
-//@teste()
-//sacar(valor: number) {
-//    this.saldo -= valor;
-//    console.log(`Saque realizado. Novo saldo: ${this.saldo}`);
-//}
+@dataDecorator
+class pessoa {
+    constructor() {
+        console.log("Objeto criado");
+    }
+}
 
-//@validacao()
-//public _valor: number;
+new pessoa();

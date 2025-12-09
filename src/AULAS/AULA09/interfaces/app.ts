@@ -14,7 +14,7 @@ let pessoas: Pessoa [] =[
     {nome: 'Mariana'}
 ]
 
-function listaNomes(p: Pessoa[]){
+function listaNomesPessoas(p: Pessoa[]){
     p.forEach(prop => console.log(prop.nome + " - " +prop.idade));
 } 
 
@@ -27,7 +27,7 @@ interface pessoa2 {
 }
 
 
-//listaNomes(pessoas);
+//listaNomesPessoas(pessoas);
 class Funcioanrio extends pessoa3 implements pessoa, pessoa2 {
     cpf: string;
     nome: string;
