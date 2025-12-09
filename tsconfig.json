@@ -1,10 +1,6 @@
 {
     "compilerOptions": {
-        "target": "es6",
-        "module": "commonjs",
         "outDir": "./dist",
-        //"strictNullChecks": true
-        "experimentalDecorators": true
-    },
-    
+        //"outFile": "dist/AULAS"
+    }
 }
