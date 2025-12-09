@@ -1,4 +1,4 @@
-function dataDecorator<T extends { new(...args: any[]): {} }>(constructor: T): T {
+function dataDecorator<T extends { new(...args: any[]): {} }>(constructor: T): T { //Decorator de classe
     return class extends constructor {
         constructor(...args: any[]) {
             super(...args);
@@ -14,7 +14,7 @@ function exemploDecoratorClasse(constructor: Function) {
 }
 
 @dataDecorator
-class pessoa {
+class pessoa { //classe com decorator
     constructor() {
         console.log("Objeto criado");
     }

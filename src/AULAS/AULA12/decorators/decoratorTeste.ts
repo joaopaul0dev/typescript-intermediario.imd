@@ -4,8 +4,6 @@ function log(target: Function) {
 }
 @log
 class Teste0 {
-   
 }
 
 new Teste0();
-//@log()
